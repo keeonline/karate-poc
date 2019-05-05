@@ -34,10 +34,10 @@ public class PingMockRunner {
         server.stop();
     }
 
-    @Test
-    public void testParallel() {
-        Results results = Runner.parallel(getClass(), 5);
-        assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
-    }
+//    @Test
+//    public void testParallel() {
+//        Results results = Runner.parallel(getClass(), 5);
+//        assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
+//    }
 
 }
